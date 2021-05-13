@@ -12,7 +12,7 @@ import zad1.src.commandsAndInstructions.Commands.*;
 
 public abstract class Init {
     private static void patternsInit(Pattern[] patterns) throws Exception {
-        File file = new File("./patterns/commands_patterns.txt");
+        File file = new File("./zad1/patterns/commands_patterns.txt");
         try {
             Scanner sc = new Scanner(file);
             int patternCounter = 0;

@@ -16,10 +16,18 @@ public class InstructionLeft extends Instruction {
     @Override
     public void applyInstruction(Rob rob, World world) {
         switch(rob.getDirection()) {
-            case UP -> rob.setDirection(Directions.LEFT);
-            case DOWN -> rob.setDirection(Directions.RIGHT);
-            case LEFT -> rob.setDirection(Directions.DOWN);
-            case RIGHT -> rob.setDirection(Directions.UP);
+            case UP:
+               rob.setDirection(Directions.LEFT);
+               break;
+            case DOWN:
+               rob.setDirection(Directions.RIGHT);
+               break;
+            case LEFT:
+               rob.setDirection(Directions.DOWN);
+               break;
+            case RIGHT:
+               rob.setDirection(Directions.UP);
+               break;
         }
 
         rob.useEnergyForInstruction();
