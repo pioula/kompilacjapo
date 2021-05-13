@@ -1,0 +1,17 @@
+^ile_tur (?:[1-9]\d*|0)$
+^rozmiar_planszy_x [1-9]\d*$
+^rozmiar_planszy_y [1-9]\d*$
+^pocz_ile_robów (?:[1-9]\d*|0)$
+^pocz_progr [a-z]+$
+^pocz_energia [1-9]\d*$
+^ile_daje_jedzenie (?:[1-9]\d*|0)$
+^ile_rośnie_jedzenie [1-9]\d*$
+^koszt_tury (?:[1-9]\d*|0)$
+^pr_powielenia (?:0|0\.\d+|1|1\.0+)$
+^ułamek_energii_rodzica (?:0|0\.\d+|1|1\.0+)$
+^limit_powielenia (?:[1-9]\d*|0)$
+^pr_usunięcia_instr (?:0|0\.\d+|1|1\.0+)$
+^pr_dodania_instr (?:0|0\.\d+|1|1\.0+)$
+^pr_zmiany_instr (?:0|0\.\d+|1|1\.0+)$
+^spis_instr [a-z]+$
+^co_ile_wypisz [1-9]\d*$

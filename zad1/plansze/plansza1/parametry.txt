@@ -1,0 +1,17 @@
+ile_tur 20
+rozmiar_planszy_x 6
+rozmiar_planszy_y 4
+pocz_ile_robów 10
+pocz_progr liwj
+pocz_energia 10
+ile_daje_jedzenie 2
+ile_rośnie_jedzenie 5
+koszt_tury 3
+pr_powielenia 0.5
+ułamek_energii_rodzica 0.5
+limit_powielenia 10
+pr_usunięcia_instr 0.5
+pr_dodania_instr 0.5
+spis_instr lpiwj
+pr_zmiany_instr 0.5
+co_ile_wypisz 1
